@@ -87,4 +87,4 @@ export default async function Home() {
 		<Image alt='Avatar' width={651} height={621} src='/hero.png' />
 	</div>
 </main> */
-}
+} 
