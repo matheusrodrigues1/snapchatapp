@@ -28,6 +28,7 @@ export async function logoutAction() {
 	await signOut();
 }
 
+//send text messages
 export const sendMessageAction = async (receiverId: string, content: string, messageType: "image" | "text") => {
 	noStore();
 	try {
