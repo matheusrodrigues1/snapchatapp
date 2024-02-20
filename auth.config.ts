@@ -12,8 +12,7 @@ export const authConfig = {
 
 			const isVisitingChatPage = request.nextUrl.pathname.startsWith("/chat");
 
-			const isVisitingAuthPage =
-				request.nextUrl.pathname.startsWith("/login") || request.nextUrl.pathname.startsWith("/signup");
+			const isVisitingAuthPage = request.nextUrl.pathname.startsWith("/login") || request.nextUrl.pathname.startsWith("/signup");
 
 			if (!user && isVisitingChatPage) {
 				return false;
